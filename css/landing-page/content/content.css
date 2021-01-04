@@ -1,0 +1,72 @@
+﻿
+.content .content-ads{
+    width:100%;
+    margin-top: 22px;
+    height: 225px;
+    align-items: center;
+    background-image: url('../../../content/img/adshere.png');
+    background-position: center;
+    background-size: contain;
+    border-bottom:1px solid black;
+}
+.content .content-hover-div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content-hover-text{
+    height: 40px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.content-hoverList{
+    
+
+    
+}
+.content-hover-myCourse{
+    display: flex;
+    justify-items: center;
+    padding-right: 10px;
+}
+.myBar{
+    z-index: 5;
+    height: 8px;
+  background: #4caf50;
+  width: 0%;
+
+}
+.content-recomendCourse{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.hoverList-item{
+  color: white;
+  background-color:#FDAC53;
+  
+  height: 600px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.hoverList-1{
+    background-image: url('../../../content/img/animal.jpg');
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.learn-bg{
+    
+   width: 250px;
+   height: 150px;
+   padding-top: 20px;
+   background-color: rgba(0, 0, 0, 0.9); 
+   border-radius: 15px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}

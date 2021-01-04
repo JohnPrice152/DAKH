@@ -1,0 +1,63 @@
+﻿@import url('../admin-page/layout/header.css');
+@import url('../admin-page/layout/menu.css');
+@import url('../admin-page/layout/content.css');
+@import url('../admin-page/layout/button.css');
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('/content/font/GoogleSans-Regular.otf') format('opentype');
+}
+body {
+    margin: 0;
+    font-family:GoogleSans-Regular;
+    font-size:13px;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 100vh;
+    border-right:solid 1px rgb(0, 0, 0);
+}
+
+.right {
+    margin-left: 201px;
+    width: calc(100%-200px);
+    height: 100vh;
+}
+
+.left .logo {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo .slide-menu {
+    height: 30px;
+    width: 30px;
+    background-image: url('../../content/img/toggle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
+
+.logo .logo-cukcuk {
+    margin-left: 50px;
+    height: 100px;
+    width: 100%;
+    background-image: url('../../content/img/logo11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.insert-avatar{
+    height: 100%;
+    width: 100%;
+    background-image: url('../../content/icon/avatar-default.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+    
+}

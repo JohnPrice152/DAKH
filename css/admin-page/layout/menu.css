@@ -1,0 +1,46 @@
+﻿.menu {
+    width: 100%;
+}
+
+    .menu .menu-item {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        cursor: pointer;
+    }
+
+        .menu .menu-item:hover {
+            background-color: #e5e5e5;
+        }
+
+        .menu .menu-item .menu-item-icon {
+            margin-left: 20px;
+            width: 24px;
+            height: 24px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .menu .menu-item .menu-item-text {
+            margin-left: 10px;
+        }
+
+.menu-item .hs-dientu {
+    background-image: url('../../../content/icon/document-online.png');
+}
+.menu-item .hs-giay {
+    background-image: url('../../../content/icon/document-online.png');
+}
+.menu-item .td-chi {
+    background-image: url('../../../content/icon/report.png');
+}
+.menu-item .td-dong {
+    background-image: url('../../../content/icon/dashboard.png');
+}
+.menu-item .lao-dong {
+    background-image: url('../../../content/icon/dic-employee.png');
+}
+.menu-item .thiet-lap {
+    background-image: url('../../../content/icon/setting.png');
+}

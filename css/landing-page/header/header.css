@@ -1,0 +1,118 @@
+﻿.header {
+    display: block;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+.header .header-top {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header .header-demoCourse {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 22px;
+}
+.header-top .header-logo {
+    height: 120px;
+    width: 150px;
+    align-items: center;
+    background-image: url('../../../content/img/logo11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-top .header-categories {
+    height: 60px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.header-top .header-search {
+    height: 40px;
+    width: 300px;
+    margin-left: 10px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgb(170, 170, 170);
+}
+.search-icon {
+    margin-top:5px;
+    margin-left:5px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.input-box {
+    height: 30px;
+    width: 150px;
+    border-width:0;
+    padding:0;
+}
+.header-top .header-buy {
+    position: absolute;
+    right: 270px;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.header-top .header-myLearning {
+    position: absolute;
+    right: 100px;
+    height: 60px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.header-top .header-profile {
+    position: absolute;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background-image: url('../../../content/icon/avatar-default.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-top .header-profile:hover {
+    cursor: pointer;
+}
+
+.demoCourse-text {
+    justify-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 20vw;
+}
+
+.header-demoCourse-items {
+    text-align: center;
+}
